@@ -1,0 +1,16 @@
+{
+  "name": "sqlsockets",
+  "version": "1.0.0",
+  "description": "this is a test server to play with sql and to create a web socket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tshelton5000",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.12.1",
+    "sequelize": "^5.19.6"
+  }
+}
