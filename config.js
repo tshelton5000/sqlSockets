@@ -18,6 +18,6 @@ sequelize.adult.hasOne(sequelize.home);
 sequelize.adult.hasMany(sequelize.child);
 sequelize.child.hasMany(sequelize.hobby);
 
-sequelize.sync({force: true});
+sequelize.sync();
 
 module.exports = sequelize;
